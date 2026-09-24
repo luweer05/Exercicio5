@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Aumento</title>
+</head>
+
+<body>
+
+    <h1>Aumento de Salário</h1>
+
+    <p>Digite o salário da pessoa:</p>
+    <input type="number" id="salario">
+    <button onclick="calcular()">Calcular</button>
+
+    <h3>Tabela de Aumento</h3>
+
+    <table >
+        <tr>
+            <th>Salário atual</th>
+            <th>Aumento</th>
+        </tr>
+
+        <tr>
+            <td>Até R$ 1000.00</td>
+            <td>20%</td>
+        </tr>
+
+        <tr>
+            <td>Acima de R$ 1000.00 até R$ 3000.00</td>
+            <td>15%</td>
+        </tr>
+
+        <tr>
+            <td>Acima de R$ 3000.00 até R$ 8000.00</td>
+            <td>10%</td>
+        </tr>
+
+        <tr>
+            <td>Acima de R$ 8000.00</td>
+            <td>5%</td>
+        </tr>
+    </table>
+
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
